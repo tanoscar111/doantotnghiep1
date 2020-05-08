@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header li{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+header li a{
+   text-decoration: none;
+   
+}
+.sup   {
+    position: relative;
+}
+.sup ul{
+    position: absolute;
+    top: 30px;
+    
+}
+.sup:hover>ul{
+    display: block;
+}
